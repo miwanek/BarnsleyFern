@@ -4,7 +4,7 @@
 Barnsley fern generator written in MIPS assembly.
 
 Generator takes 3 three arguments:
-- number of iterations
+- number of iterations(the more iterations, the more detailed fern we get)
 - name of input image(max 20 chars)
 - name of output image(max 20 chars)
 
