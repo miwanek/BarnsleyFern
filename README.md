@@ -1,7 +1,7 @@
  BarnsleyFern
 ======================
 
-Barnsley fern generator written in MIPS assembly.
+Barnsley fern generator written in MIPS assembly. Input files should be in bmp format and may have custom proportions 
 
 Generator takes 3 three arguments:
 - number of iterations(the more iterations, the more detailed fern we get)
