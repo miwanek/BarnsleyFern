@@ -16,5 +16,6 @@ Exact algorithm how to choose next pixel to paint can be found [here](https://en
 
 Important notes:
 --------
-MARS simulator is necessary to run the program.
-Program will use input.bmp as input file and output.bmp as output file
+- MARS simulator is necessary to run the program.
+- Program will use input.bmp as input file and output.bmp as output file
+- Input file must be in the same directory as MARS
