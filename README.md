@@ -14,7 +14,7 @@ There are two versions :
 Exact algorithm how to choose next pixel to paint can be found [here](https://en.wikipedia.org/wiki/Barnsley_fern)
 
 
-Important note:
+Important notes:
 --------
 MARS simulator is necessary to run the program.
 Program will use input.bmp as input file and output.bmp as output file
