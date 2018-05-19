@@ -7,14 +7,14 @@ wysokosc:		.space 4		# wysokosc pliku bmp
 offset:			.space 4		# offset - przesuniecie pocz¹tku tablicy pikseli wzglêdem pocz¹tku pliku
 buff:			.space 4		# bufor wczytywania
 
-witaj:		.asciiz	"Paproc Barnsleya\nPodaj liczbe iteracji algorytmu: "
-input:		.asciiz	"input.bmp"
-output:		.asciiz "output.bmp"
-blad:		.asciiz "Blad odczytu pliku \n"
+witaj:			.asciiz	"Paproc Barnsleya\nPodaj liczbe iteracji algorytmu: "
+input:			.asciiz	"input.bmp"
+output:			.asciiz "output.bmp"
+blad:			.asciiz "Blad odczytu pliku \n"
 
 
 .text	
-main:	la $a0, iteration		# wczytujemy adress stringa witaj do rejestru a0
+main:	la $a0, witaj			# wczytujemy adress stringa witaj do rejestru a0
 	li $v0, 4			# syscall 4: wypisanie stringa
 	syscall				# wypisanie na ekranie zawartosci stringa hello
 	li $v0,5			# syscall 5: wczytanie inta
